@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width = device-width ,initial-scale = 1" />
+        <meta name="robots" content="noindex,nofollow" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>
+            JavaScript入門講座
+        </title>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        <h1>DOM入門</h1>
+        <div>
+            <label for="lab-select">
+                あなたの出身はどこですか? : 
+            </label>
+            <select id="js-select">
+                <option id="pref1">北海道</option>
+                <option id="pref2">青森</option>
+                <option id="pref3">長崎</option>
+                <option id="pref4">宮城</option>
+                <option id="pref5">京都</option>
+                <option id="pref6">長野</option>
+                <option id="pref7">福岡</option>
+                <option id="pref8">奈良</option>
+                <option id="pref9">大阪</option>
+            </select>
+        </div>
+
+        <div>
+            <p id="question">
+                興味のある技術はなんですか？
+            </p>
+            <label for="tech1">
+                <input type="checkbox" id="js-cb" name="tech1" value="TypeScript"> TypeScript
+            </label>
+            <label for="tech2">
+                <input type="checkbox" id="js-cb" name="tech2" value="Rest API"> Rest API
+            </label>
+            <label for="tech3">
+                <input type="checkbox" id="js-cb" name="tech3" value="TypeScript"> GraphQL
+            </label>
+            <label for="tech4">
+                <input type="checkbox" id="js-cb" name="tech4" value="TypeScript"> Rust 
+            </label>
+            <label for="tech5">
+                <input type="checkbox" id="js-cb" name="tech5" value="TypeScript"> Go lang
+            </label>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

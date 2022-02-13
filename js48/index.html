@@ -15,14 +15,19 @@
     </head>
     <body>
         <h1>DOM入門</h1>
-        <div id="js-div">
-            <p id="js-rest" class="cs-rest">Rest API</p>
-            <p id="js-graph" class="cs-graph">GraphQL</p>
-        </div>
-
-        <div id="div">
-            <p id="js-engel">エンゲル係数 10.13</p>
-            <p id="js-rg">R > G </p>
+        <div>
+            <form id="js-form-regist">
+                <label>
+                    ユーザID: <input type="text" id="js-user-id" placeholder="example"/> 
+                </label>
+                <label>
+                    名前 : <input type="text" id="js-name" placeholder="Jiro" />
+                </label>
+                <label>
+                    email : <input type="email" id="js-email" placeholder="email@example.com"/>
+                </label>
+                <input type="submit" />
+            </form>
         </div>
         <script src="script.js"></script>
     </body>
