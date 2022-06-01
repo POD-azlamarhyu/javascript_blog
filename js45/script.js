@@ -25,7 +25,7 @@ const onClickEvent2 = () => {
 
 const onClickEvent3 = () =>{
     if(in2.value === null || in2.value === ""){
-        confirm("値が入力されたいません");
+        confirm("値が入力されていません");
     }else{
         console.log(in2.value);
     }
